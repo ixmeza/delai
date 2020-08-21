@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74619A9A7BB58AA442E402B3 /* Pods_respawn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1DB81A98BBCC650F90B040B /* Pods_respawn.framework */; };
 		B92B492824EADDB700252F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92B492724EADDB700252F3D /* AppDelegate.swift */; };
 		B92B492A24EADDB700252F3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92B492924EADDB700252F3D /* SceneDelegate.swift */; };
 		B92B492C24EADDB700252F3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92B492B24EADDB700252F3D /* ViewController.swift */; };
@@ -14,10 +15,15 @@
 		B92B493124EADDC800252F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92B493024EADDC800252F3D /* Assets.xcassets */; };
 		B92B493424EADDC800252F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B92B493224EADDC800252F3D /* LaunchScreen.storyboard */; };
 		B92B494024EB4D3400252F3D /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92B493F24EB4D3400252F3D /* SettingsController.swift */; };
+		B92C65BF24EC3FD200167089 /* croissant.json in Resources */ = {isa = PBXBuildFile; fileRef = B92C65BE24EC3FD200167089 /* croissant.json */; };
+		B942938B24EDDC72005A8845 /* LaunchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B942938A24EDDC72005A8845 /* LaunchController.swift */; };
+		B942938D24EDF6EF005A8845 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = B942938C24EDF6EF005A8845 /* Record.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B92B492424EADDB700252F3D /* respawn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = respawn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EB93CA26F2C8A2DFA06401 /* Pods-respawn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-respawn.release.xcconfig"; path = "Target Support Files/Pods-respawn/Pods-respawn.release.xcconfig"; sourceTree = "<group>"; };
+		52D50ECCB50C6FC2F10D72F9 /* Pods-respawn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-respawn.debug.xcconfig"; path = "Target Support Files/Pods-respawn/Pods-respawn.debug.xcconfig"; sourceTree = "<group>"; };
+		B92B492424EADDB700252F3D /* délai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "délai.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B92B492724EADDB700252F3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B92B492924EADDB700252F3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B92B492B24EADDB700252F3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +32,10 @@
 		B92B493324EADDC800252F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B92B493524EADDC800252F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B92B493F24EB4D3400252F3D /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		B92C65BE24EC3FD200167089 /* croissant.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = croissant.json; sourceTree = "<group>"; };
+		B942938A24EDDC72005A8845 /* LaunchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchController.swift; sourceTree = "<group>"; };
+		B942938C24EDF6EF005A8845 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		C1DB81A98BBCC650F90B040B /* Pods_respawn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_respawn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,24 +43,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74619A9A7BB58AA442E402B3 /* Pods_respawn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6478470A0291106272B3B5B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52D50ECCB50C6FC2F10D72F9 /* Pods-respawn.debug.xcconfig */,
+				18EB93CA26F2C8A2DFA06401 /* Pods-respawn.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8C7AB4C031466D53D4F9C17F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1DB81A98BBCC650F90B040B /* Pods_respawn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B92B491B24EADDB700252F3D = {
 			isa = PBXGroup;
 			children = (
 				B92B492624EADDB700252F3D /* respawn */,
 				B92B492524EADDB700252F3D /* Products */,
+				6478470A0291106272B3B5B3 /* Pods */,
+				8C7AB4C031466D53D4F9C17F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		B92B492524EADDB700252F3D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B92B492424EADDB700252F3D /* respawn.app */,
+				B92B492424EADDB700252F3D /* délai.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				B92B492724EADDB700252F3D /* AppDelegate.swift */,
+				B92C65BE24EC3FD200167089 /* croissant.json */,
 				B92B492924EADDB700252F3D /* SceneDelegate.swift */,
 				B92B492B24EADDB700252F3D /* ViewController.swift */,
 				B92B492D24EADDB700252F3D /* Main.storyboard */,
@@ -66,6 +97,8 @@
 				B92B493224EADDC800252F3D /* LaunchScreen.storyboard */,
 				B92B493524EADDC800252F3D /* Info.plist */,
 				B92B493F24EB4D3400252F3D /* SettingsController.swift */,
+				B942938A24EDDC72005A8845 /* LaunchController.swift */,
+				B942938C24EDF6EF005A8845 /* Record.swift */,
 			);
 			path = respawn;
 			sourceTree = "<group>";
@@ -77,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B92B493824EADDC800252F3D /* Build configuration list for PBXNativeTarget "respawn" */;
 			buildPhases = (
+				F0B707E158610B73D9501C62 /* [CP] Check Pods Manifest.lock */,
 				B92B492024EADDB700252F3D /* Sources */,
 				B92B492124EADDB700252F3D /* Frameworks */,
 				B92B492224EADDB700252F3D /* Resources */,
+				13438EFBBB41960B1E1781C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -87,7 +122,7 @@
 			);
 			name = respawn;
 			productName = respawn;
-			productReference = B92B492424EADDB700252F3D /* respawn.app */;
+			productReference = B92B492424EADDB700252F3D /* délai.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,10 +166,53 @@
 				B92B493424EADDC800252F3D /* LaunchScreen.storyboard in Resources */,
 				B92B493124EADDC800252F3D /* Assets.xcassets in Resources */,
 				B92B492F24EADDB700252F3D /* Main.storyboard in Resources */,
+				B92C65BF24EC3FD200167089 /* croissant.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13438EFBBB41960B1E1781C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-respawn/Pods-respawn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-respawn/Pods-respawn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-respawn/Pods-respawn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0B707E158610B73D9501C62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-respawn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B92B492024EADDB700252F3D /* Sources */ = {
@@ -142,6 +220,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B92B494024EB4D3400252F3D /* SettingsController.swift in Sources */,
+				B942938B24EDDC72005A8845 /* LaunchController.swift in Sources */,
+				B942938D24EDF6EF005A8845 /* Record.swift in Sources */,
 				B92B492C24EADDB700252F3D /* ViewController.swift in Sources */,
 				B92B492824EADDB700252F3D /* AppDelegate.swift in Sources */,
 				B92B492A24EADDB700252F3D /* SceneDelegate.swift in Sources */,
@@ -286,6 +366,7 @@
 		};
 		B92B493924EADDC800252F3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52D50ECCB50C6FC2F10D72F9 /* Pods-respawn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,8 +376,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.flakeystories.respawn;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flakeystories.delai;
+				PRODUCT_NAME = "délai";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,6 +385,7 @@
 		};
 		B92B493A24EADDC800252F3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18EB93CA26F2C8A2DFA06401 /* Pods-respawn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -313,8 +395,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.flakeystories.respawn;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flakeystories.delai;
+				PRODUCT_NAME = "délai";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
