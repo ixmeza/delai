@@ -7,7 +7,7 @@
 ## Features
 :bangbang: Don't leave the app or else you will lose! 
 
-:pushpin: You can set your own time from 1 to 60 minutes
+:pushpin: You can set your own time from 1 to 60 minutes (Pomodoro is about 25 min of focus intervals)
 
 :pushpin: Every time finish waiting for the time to be reached without leaving the app the data is recorded in a sqlite database
 
