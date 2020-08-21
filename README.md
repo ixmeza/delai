@@ -11,6 +11,7 @@
 
 ## Features
 :bangbang: Don't leave the app or else you will lose! 
+If you attempt to leave the app the timer will be reset and your record won't be saved. This is to prevent cheating.
 
 :pushpin: You can set your own time from 1 to 60 minutes (Pomodoro is about 25 min of focus intervals)
 
