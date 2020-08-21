@@ -63,7 +63,7 @@ class ViewController: UIViewController {
         // Adjust animation speed
         animationView.animationSpeed = 0.5
         
-        //** below code is for testing purposes
+        /** below code is for testing purposes
          
          // get the current date and time
          let currentDateTime = Date()
@@ -85,7 +85,7 @@ class ViewController: UIViewController {
          record = Record(id: 1,date: "7-30-2020", duration: 10)
          RecordManager.shared.create(record : record)
          
-         //**/
+         **/
         
     }
     
